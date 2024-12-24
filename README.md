@@ -1,6 +1,6 @@
 # Belly_button_Challenge
 # Instructions
-Complete the following steps:
+// Complete the following steps:
 
 Use the D3 library to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json.
 
@@ -12,7 +12,7 @@ Use otu_ids as the labels for the bar chart.
 
 Use otu_labels as the hovertext for the chart.
 
-bar Chart
+// bar Chart
 
 Create a bubble chart that displays each sample.
 
@@ -26,7 +26,7 @@ Use otu_ids for the marker colors.
 
 Use otu_labels for the text values.
 
-Bubble Chart
+// Bubble Chart
 
 Display the sample's metadata, i.e., an individual's demographic information.
 
