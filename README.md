@@ -1,6 +1,9 @@
 # Belly_button_Challenge
 The Belly Button Biodiversity Dashboard effectively combines aesthetics, interactivity, and functionality to create a meaningful tool for exploring microbiome data. It demonstrates how modern web technologies can transform complex datasets into accessible and insightful visualizations. With its engaging design and potential for further enhancements, the dashboard represents a significant achievement in science communication and data visualization.
 
+![image](https://github.com/user-attachments/assets/02652a58-95a8-40ae-9d8d-2e2ba869fbf4)
+
+
 # Instructions
 // Complete the following steps:
 
