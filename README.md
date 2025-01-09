@@ -3,47 +3,59 @@ The Belly Button Biodiversity Dashboard effectively combines aesthetics, interac
 
 ![image](https://github.com/user-attachments/assets/02652a58-95a8-40ae-9d8d-2e2ba869fbf4)
 
+**Project Overview:** The goal of this project was to build an interactive dashboard that visualizes the Belly Button Biodiversity dataset. This dataset catalogs the microbial species found in human navels and aims to explore the distribution of various microbial species (OTUs) across a diverse group of individuals.
 
-# Instructions
-//**Complete the following steps:**
+Key Objectives and Tasks:
 
-Use the D3 library to read in samples.json from the URL https://static.bc-edx.com/data/dl-1-2/m14/lms/starter/samples.json.
+**Data Loading and Setup:**
 
-Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+The samples.json file was accessed using the D3 library, pulling the data required to build the dashboard. The dataset contains details about individual samples, including microbial species IDs, sample values, and demographic metadata.
 
-Use sample_values as the values for the bar chart.
+**Horizontal Bar Chart:**
+A horizontal bar chart was created that displays the top 10 OTUs found in the selected individual.
 
-Use otu_ids as the labels for the bar chart.
+**Key Features:**
+The bar chart uses sample_values as the values.
+otu_ids are displayed as the labels for the chart.
+otu_labels are shown as hover text for additional details.
+The chart dynamically updates when a new sample is selected from the dropdown menu.
 
-Use otu_labels as the hovertext for the chart.
+**Bubble Chart:**
 
-// **Bar Chart**
+A bubble chart was developed to represent each sample.
+Key Features:
+otu_ids are mapped to the x-axis.
+sample_values are used for both the y-axis and marker size.
+otu_ids are also used to color the markers.
+otu_labels are displayed as text for each marker.
+The chart is interactive and updates according to the selected sample.
 
-Create a bubble chart that displays each sample.
+**Metadata Display:**
 
-Use otu_ids for the x values.
+The demographic information associated with each sample was extracted from the metadata JSON and displayed.
+The metadata includes key-value pairs like age, gender, ethnicity, etc.
+This information updates dynamically when a new sample is selected.
 
-Use sample_values for the y values.
+**App Deployment:**
 
-Use sample_values for the marker size.
+The dashboard was successfully deployed to GitHub Pages, making it accessible online.
+The app included a smooth user experience, with the data visualizations and metadata updating seamlessly when selecting a new sample.
+GitHub Repository:
 
-Use otu_ids for the marker colors.
+The project was regularly committed and updated in a GitHub repository.
+A detailed README.md file was included, explaining the project setup, structure, and functionality.
 
-Use otu_labels for the text values.
+**Outcome:**
 
-// **Bubble Chart**
+The app met all project requirements, including the proper initialization and dynamic updating of the bar chart, bubble chart, and metadata display.
+The app was successfully deployed to GitHub Pages and was accessible for public use.
+The project was structured to allow for easy exploration of the dataset, with clear visualizations of microbial distributions and personal metadata, providing insights into the microbial biodiversity of human navels.
+The project demonstrated proficiency in data visualization, JavaScript (D3.js), and interactive dashboard development, as well as the ability to deploy a fully functional web application.
 
-Display the sample's metadata, i.e., an individual's demographic information.
 
-Loop through each key-value pair from the metadata JSON object and create a text string.
 
-Append an html tag with that text to the #sample-metadata panel.
 
-Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown as follows:
 
-Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo. Ensure that your repository has regular commits and a thorough README.md file
 
-**Hints
-Use console.log inside of your JavaScript code to see what your data looks like at each step.
 
-Refer to the Plotly.js documentationLinks to an external site. when building the plots.
+
